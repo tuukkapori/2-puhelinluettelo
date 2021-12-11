@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 25px;
+  width: 50vw;
+  box-shadow: 0 2px 4px rgb(29, 30, 31);
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-btn {
+  background: #339dff;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  width: 210px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgb(2, 2, 2);
+}
+
+button:hover {
+  background: #0472da;
+  box-shadow: 0 2px 4px rgb(133, 134, 143);
+}
+
+.contact-label:hover {
+  box-shadow: 0 2px 4px rgb(133, 134, 143);
+}
+
+
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.appname {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .app {
+    width: 100%;
+    max-width: 100%;
+  }
+}
